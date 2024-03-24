@@ -40,19 +40,19 @@ console.log("Q5")
 
 var userInput = prompt("Enter a number to print its multiplication table: ");
 for(var i = 1; i <= 10; i++){
-    console.log(`${userInput} x ${i} = ${userInput * i}<br>`);}
+    console.log(`${userInput} x ${i} = ${userInput * i}`);}
 //• Write a loop to print the Fibonacci series up to the 10th term. (The Fibonacci sequence is a type series where each number is the sum of the two that precede it. It starts from 0 and 1 usually. The Fibonacci sequence is given by 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, and so on.-10)
 //
 console.log("Q6")
 for (let i = 1; i <= 10; i++) {
-    console.log(`${i} squared is: ${i * i}<br>`);
+    console.log(`${i} squared is: ${i * i}`);
 }
 //• Write a loop to find and print the sum of digits of a number (let's say 123).
 //
 console.log("Q7")
 var original = "Hello World";
 var reversed = original.split('').reverse().join('');
-console.log(`<p>${reversed}</p>`);
+console.log(`${reversed}`);
 //Write a loop to print the reverse of a string (let's say "hello").
 //
 console.log("Q8")
@@ -63,7 +63,7 @@ for (let i = 1; i < arr.length; i++) {
         smallest = arr[i];
     }
 }
-console.log(`The array is: ${arr}<br>`);
+console.log(`The array is: ${arr}`);
 console.log(`The smallest number in the array is: ${smallest}`);
 
 //• Write a loop to print the square of numbers from 1 to 10.
@@ -76,7 +76,7 @@ for (let i = 1; i < arr.length; i++) {
         largest = arr[i];
     }
 }
-console.log(`The array is: ${arr}<br>`);
+console.log(`The array is: ${arr}`);
 console.log(`The largest number in the array is: ${largest}`);
 //• Write a loop to find and print the smallest element in an array (let's say [3, 7, 2, 9, 5]).
 //
