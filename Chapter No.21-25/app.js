@@ -73,14 +73,15 @@ console.log(userINfo.toUpperCase())
 ///Q11. Write a program that takes user input. Convert and show the input in title case.
 console.log("Q11. Write a program that takes user input. Convert andshow the input in title case.")
 var userIfo=prompt("Write Any word and in can convert its letters Title in console panel")
-console.log(userIfo)
+console.log(userIfo.charAt(0).toUpperCase())
 
 ///Q
 ///Q12. Write a program that converts the variable num to string.
 console.log("12. Write a program that converts the variable num to string.")
 var num=7.26
-console.log(num + "Type Number")
-num=num.replace('7.26','726')
+// console.log(num+ " Type Number")
+// num=num.replace(7.26,'726')
+num = num.replace(7.26, '726')
 console.log(num)
 ///
 
