@@ -1,0 +1,16 @@
+.container{
+    text-align: center;
+    border: 1px solid blue;
+    width: 700px;
+  margin-top: 200px;
+  margin-left: 350px;
+  color: blue;
+}
+
+
+body{
+    justify-content: center;
+    align-items: center;
+    color: blue;
+    background-color: rgb(217, 220, 20);
+}
